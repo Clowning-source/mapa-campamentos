@@ -1,0 +1,1310 @@
+{
+    "total_global": 162,
+    "campamentos": {
+        "U.E.N. Francisco Pimentel": {
+            "lat": 10.5061,
+            "lng": -66.9022,
+            "total": 15,
+            "total_discapacidad": 14,
+            "total_ayudas": 3,
+            "personas": [
+                {
+                    "nombre": "Jesús Blanco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Jorge Lopez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Jackson romero",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Celis piña",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Norma barraza",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Mathias Ortiz",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Erick valencia",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Dariannys Nadales",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Reiner Onorez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Yesenia polanco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Ramón Pimentel ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Rita Yanez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLA DE RUEDAS CLINICA"
+                },
+                {
+                    "nombre": "Winder De Pablos",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLAS DE RUEDAS ERGONOMICA # 18"
+                },
+                {
+                    "nombre": "Gloria Montemayor",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLAS DE RUEDAS ERGONOMICA # 16"
+                },
+                {
+                    "nombre": "Leandro Gonzalez",
+                    "discapacidad": "No",
+                    "tipo": "Ninguna",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Gran Base de Paz Quinta Crespo": {
+            "lat": 10.5015,
+            "lng": -66.9205,
+            "total": 15,
+            "total_discapacidad": 15,
+            "total_ayudas": 4,
+            "personas": [
+                {
+                    "nombre": "Kenditzae Benavides Lanza",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Marco Enrique Bolivar Echenique",
+                    "discapacidad": "Si",
+                    "tipo": "Ninguna",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Aida Acosta",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Lecia Briceño",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Lourdes Morachine",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLA DE RUEDAS BARIATRICA"
+                },
+                {
+                    "nombre": "Eddy Villegas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Elba Mérida Flores de Laya",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "ASIENTO DE BAÑOS"
+                },
+                {
+                    "nombre": "Nancy Zambrano ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Miguel Alvarez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Omar Zambrano ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Juana Adames",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Katiuska Moreno ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Ana Tilano",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José Morales ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Rosa Paredes ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "C.E Andres Bello": {
+            "lat": 10.5002,
+            "lng": -66.9081,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 0,
+            "personas": [
+                {
+                    "nombre": "Mariana Guaramato",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Ignacia Dolores Romero Montaña",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora Discapacidad Intelectual",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José Ramón Bolivar",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "nan",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Complejo Guayana Esequiba": {
+            "lat": 10.495,
+            "lng": -66.89,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 0,
+            "personas": [
+                {
+                    "nombre": "Yuvanna Heredia",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Jordan carrasco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Stefania D'emilio ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Hotel Avila (Carpas)": {
+            "lat": 10.512,
+            "lng": -66.8885,
+            "total": 8,
+            "total_discapacidad": 8,
+            "total_ayudas": 1,
+            "personas": [
+                {
+                    "nombre": "Fanny devoe",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Génesis martinez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Josnerys Millan",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Johel ramos",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Samilth Polo",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Daniel roja",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Nancys jaime",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Navi perez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Judith Liendo": {
+            "lat": 10.485,
+            "lng": -66.92,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 1,
+            "personas": [
+                {
+                    "nombre": "George prestes Terán guerra",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Damaris eutiquia López ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "SILLA DE RUEDAS CLINICA"
+                },
+                {
+                    "nombre": "Jonathan Rafael Sánchez acosta",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE CUATRO PUNTOS"
+                }
+            ]
+        },
+        "U.E.N. Pedro Emilio Coll": {
+            "lat": 10.47,
+            "lng": -66.915,
+            "total": 12,
+            "total_discapacidad": 12,
+            "total_ayudas": 5,
+            "personas": [
+                {
+                    "nombre": "Kendri Gael Díaz apaez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José Alfredo salas la rosa",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE RASTREO VARIOS"
+                },
+                {
+                    "nombre": "Whilly cardenas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE RASTREO VARIOS"
+                },
+                {
+                    "nombre": "Alicia Pérez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Deikermon Alonso moreno ostos",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                },
+                {
+                    "nombre": "Carlos Pimentel ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA L"
+                },
+                {
+                    "nombre": "Efraín Báez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Car linda sanabria",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                },
+                {
+                    "nombre": "Yoselin Fernández ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Dariana Carolina Martinez berroteran ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Ana Alicia Guillén Andrade ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Yanina Jackeline antillanos rivas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "U E.N.B. Coronel Carlos Delgado Chalbaud": {
+            "lat": 10.465,
+            "lng": -66.94,
+            "total": 21,
+            "total_discapacidad": 19,
+            "total_ayudas": 4,
+            "personas": [
+                {
+                    "nombre": "Aurora castro ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "María Alejandra Vidal ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                },
+                {
+                    "nombre": "Naudys Gonzalo Rodríguez Milano ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Iriz yaphzeel silva Urdaneta ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                },
+                {
+                    "nombre": "Jaimelin esterbina López Aparicio ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Milagros Coromoto Monroy ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Haireth Aguilar ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Maikely haimar veitia Ruiz ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Omar Alexis echarry monasterios ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE RASTREO N° 50"
+                },
+                {
+                    "nombre": "Emil Freddy's Jiménez blanco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Marlyn Johanna frailan granadillo",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Jorkys bellos Rodríguez ",
+                    "discapacidad": "No",
+                    "tipo": "Ninguna",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Nelly Isabel del pilar sanchez",
+                    "discapacidad": "No",
+                    "tipo": "Ninguna",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Carolina jordriana Arrieta borjas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Edward Enrique Peralta rizque ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Dayana Carolina Díaz morin ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Luis angel Anton ulloa",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Martinas Josefina Ramirez de diaz",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Samuel emmanuel Torrealba ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Marina lagonel",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Wilfredo José ramos ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "COCHE ORTOPEDICO GRANDE"
+                }
+            ]
+        },
+        "Campamento Tránsitorio Mariperez": {
+            "lat": 10.5085,
+            "lng": -66.8845,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 2,
+            "personas": [
+                {
+                    "nombre": "Yuscarli Caraballo",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Gilkeiber Reyes",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "ASIENTO DE BAÑOS"
+                },
+                {
+                    "nombre": "Jesus Moreno",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                }
+            ]
+        },
+        "CIUDADELA DE CATIA": {
+            "lat": 10.515,
+            "lng": -66.942,
+            "total": 11,
+            "total_discapacidad": 11,
+            "total_ayudas": 5,
+            "personas": [
+                {
+                    "nombre": "María Adela Chacón",
+                    "discapacidad": "Si",
+                    "tipo": "Ninguna",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Esteban Guaica",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "COJIN ANTIESCARAS"
+                },
+                {
+                    "nombre": "Bárbara Mendoza",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "COJIN ANTIESCARAS"
+                },
+                {
+                    "nombre": "Keiver Eduardo García",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Angie Alvarado",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Wilderzon Rangel",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Anthony Blanco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Yodalis Velásquez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE RASTREO N° 50"
+                },
+                {
+                    "nombre": "Ashlyn Villegas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Wilden Perez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "COCHE ORTOPEDICO GRANDE"
+                },
+                {
+                    "nombre": "José Milla",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Liceo Leopoldo Aguerrevere": {
+            "lat": 10.445,
+            "lng": -66.875,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 2,
+            "personas": [
+                {
+                    "nombre": "Giovanni Rivas ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLAS DE RUEDAS ERGONOMICA # 16"
+                },
+                {
+                    "nombre": "Adrian Ledezma ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Ramón Rivero ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "UEN Zoe Xiques Silva": {
+            "lat": 10.488,
+            "lng": -66.91,
+            "total": 2,
+            "total_discapacidad": 2,
+            "total_ayudas": 1,
+            "personas": [
+                {
+                    "nombre": "Jesus Alberto Briceño Geraldo",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Filomeno Arteaga ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Otra PAÑALES TALLA M ASIENTO DE BAÑOS"
+                }
+            ]
+        },
+        "UE Luis Hurtado": {
+            "lat": 10.475,
+            "lng": -66.925,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 2,
+            "personas": [
+                {
+                    "nombre": "Urick torres ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Elionor Ramirez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "SILLAS DE RUEDAS ERGONOMICA # 18"
+                },
+                {
+                    "nombre": "Manuel Salas ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS CANADIENSES ADULTO"
+                }
+            ]
+        },
+        "U.E. Gervasio Artigas": {
+            "lat": 10.492,
+            "lng": -66.93,
+            "total": 18,
+            "total_discapacidad": 18,
+            "total_ayudas": 6,
+            "personas": [
+                {
+                    "nombre": "Edison mora",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Teodora Nieto",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "María Muñoz",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Juan guevara",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Adolfo ovalles",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Julia guaramato",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Francisco Pacheco",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Alfredo marcano",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora Discapacidad Intelectual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Ángel inaga",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Jonathan Sánchez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Juseph vargas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Orlando ribas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Matías sanoja",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Kevin Rodríguez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Elian Bolivia",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Carlos merentes",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Orales odreman",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Robert ribas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Liceo Jose Avalos": {
+            "lat": 10.491,
+            "lng": -66.9012,
+            "total": 16,
+            "total_discapacidad": 16,
+            "total_ayudas": 8,
+            "personas": [
+                {
+                    "nombre": "Johanna Elizabeth Álvarez Camacho ",
+                    "discapacidad": "Si",
+                    "tipo": "Otra",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Rosario Martínez ",
+                    "discapacidad": "Si",
+                    "tipo": "Otra",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Martha Zerpa ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Otra"
+                },
+                {
+                    "nombre": "José Omi Rivas Hernández ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Moises David Gómez blanco ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Ernesto del valle monje mendoza",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE UNA PUNTA"
+                },
+                {
+                    "nombre": "Alfredo Jiménez hernandez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "SCarlett Josefina Mosqueda ramos ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Osbel Jesus Noriega franco",
+                    "discapacidad": "Si",
+                    "tipo": "Otra",
+                    "requiere_ayuda": "Ya posee una No",
+                    "tipo_ayuda": "Otra"
+                },
+                {
+                    "nombre": "Laura elizabeth Belisario diaz",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "COCHE ORTOPEDICO GRANDE SILLA SANITARIA FIJA"
+                },
+                {
+                    "nombre": "María José ataque torres ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Barbra francheky Zabala rojas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA M"
+                },
+                {
+                    "nombre": "Luiggi Jesus García Rodríguez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Yusbelin Vanessa Lozano ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Bárbara del Carmen coa Salazar ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Otra"
+                },
+                {
+                    "nombre": "Emilia rada de Vargas ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE CUATRO PUNTOS"
+                }
+            ]
+        },
+        "E.T.I. Rafael Vegas": {
+            "lat": 10.5052,
+            "lng": -66.9125,
+            "total": 5,
+            "total_discapacidad": 5,
+            "total_ayudas": 1,
+            "personas": [
+                {
+                    "nombre": "Mailis Domínguez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Fisher Domínguez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Eduard Domínguez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual Discapacidad Auditiva",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Angela cacierra",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Pedro Díaz ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "U.E.N Jose Ignacio Paz Castillo": {
+            "lat": 10.48,
+            "lng": -66.91,
+            "total": 3,
+            "total_discapacidad": 3,
+            "total_ayudas": 2,
+            "personas": [
+                {
+                    "nombre": "Dalbert Mendoza ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "SILLAS DE RUEDAS ERGONOMICA # 16"
+                },
+                {
+                    "nombre": "Óscar Rondón ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "BASTON DE RASTREO N° 50"
+                },
+                {
+                    "nombre": "Amarilis Lopez",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "MULETAS AXILARES TALLA L"
+                }
+            ]
+        },
+        "Liceo Juan Lovera": {
+            "lat": 10.49,
+            "lng": -66.915,
+            "total": 1,
+            "total_discapacidad": 1,
+            "total_ayudas": 0,
+            "personas": [
+                {
+                    "nombre": "Zulay correa",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "BASTON DE CUATRO PUNTOS"
+                }
+            ]
+        },
+        "U.E.N. Armando Zuloaga Blanco": {
+            "lat": 10.503,
+            "lng": -66.918,
+            "total": 17,
+            "total_discapacidad": 17,
+            "total_ayudas": 5,
+            "personas": [
+                {
+                    "nombre": "Rosa Duarte",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Alberto Arcila",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Eddie José Milla ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Luis Hernández",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Gladys Marron",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Maritza Ayala ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Mario Quintana",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Nairoby Quintana ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Mariangel Quintana",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Norkis Diaz ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Abraham Romero ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Enrique José Castro",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Gregorio Ospino ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Viviana Herrera ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José Quintero",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Luseyliz Yendis",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Misuko Olarte",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        }
+    }
+}

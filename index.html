@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoreo en Tiempo Real - Campamentos Transitorios</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background: #f4f6f9; }
+        h2 { color: #2c3e50; margin-bottom: 5px; font-weight: 600; }
+        p.sub { color: #7f8c8d; margin-top: 0; font-size: 14px; }
+        #map { height: 720px; width: 100%; border-radius: 12px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); border: 1px solid #e1e4e8; }
+
+        .info-panel {
+            background: white; padding: 18px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 20px; display: flex; justify-content: space-around; font-size: 15px; border: 1px solid #eef2f5;
+        }
+        .info-panel div { text-align: center; }
+        .info-panel span { display: block; font-weight: 700; font-size: 20px; color: #d9534f; margin-top: 4px; }
+
+        /* Estilo personalizado para los popups de Leaflet */
+        .leaflet-popup-content-wrapper {
+            border-radius: 12px;
+            padding: 4px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .leaflet-popup-content {
+            margin: 12px 16px;
+            line-height: 1.4;
+        }
+
+        .popup-header {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2c3e50;
+            border-bottom: 2px solid #f1f2f6;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
+        }
+
+        .popup-stats {
+            display: flex;
+            justify-content: space-between;
+            background: #f8f9fa;
+            padding: 8px 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .stat-item { text-align: center; flex: 1; }
+        .stat-item span { display: block; font-size: 14px; font-weight: 700; margin-top: 2px; }
+        .stat-total { color: #2c3e50; }
+        .stat-disc { color: #d9534f; }
+        .stat-ayuda { color: #0275d8; }
+
+        .popup-list-container {
+            max-height: 170px;
+            overflow-y: auto;
+            padding-right: 4px;
+            border-top: 1px dashed #dfe4ea;
+            padding-top: 8px;
+        }
+        .popup-list-container::-webkit-scrollbar {
+            width: 5px;
+        }
+        .popup-list-container::-webkit-scrollbar-thumb {
+            background: #ced6e0;
+            border-radius: 10px;
+        }
+
+        .popup-item {
+            padding: 6px 8px;
+            border-bottom: 1px solid #f1f2f6;
+            font-size: 12px;
+            color: #333;
+        }
+        .popup-item:last-child { border-bottom: none; }
+        .popup-name { font-weight: 600; display: block; color: #2f3640; }
+
+        .badge-disc {
+            background: #ff7675;
+            color: white;
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 2px;
+        }
+        .badge-ayuda {
+            background: #74b9ff;
+            color: #2d3436;
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 2px;
+            margin-left: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Monitoreo en Tiempo Real - Campamentos Transitorios</h2>
+    <p class="sub">Actualización y gestión de beneficiarios</p>
+
+    <div class="info-panel">
+        <div>Campamentos Activos: <span id="total-activos">0</span> / 41</div>
+        <div>Total Personas Entrevistadas: <span id="total-afectados">0</span></div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([10.4806, -66.9036], 12);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        fetch('datos_mapa.json')
+        .then(response => response.json())
+        .then(data => {
+            var resumenCampamentos = data.campamentos;
+
+            document.getElementById("total-activos").innerText = Object.keys(resumenCampamentos).length;
+            document.getElementById("total-afectados").innerText = data.total_global;
+
+            for (var campName in resumenCampamentos) {
+                var info = resumenCampamentos[campName];
+                var marker = L.marker([info.lat, info.lng]).addTo(map);
+
+                // Construcción de la lista en tarjetas internas por persona
+                var listaHTML = '<div class="popup-list-container">';
+                info.personas.forEach(function(p) {
+                    var etiquetaDisc = p.discapacidad.trim().toLowerCase() === 'si'
+                        ? '<br><span class="badge-disc">⚠️ Disc: ' + p.tipo + '</span>'
+                        : '';
+                    var etiquetaAyuda = p.requiere_ayuda.trim().toLowerCase() === 'si'
+                        ? '<span class="badge-ayuda">🤝 Ayuda: ' + p.tipo_ayuda + '</span>'
+                        : '';
+
+                    listaHTML += '<div class="popup-item">' +
+                                    '<span class="popup-name">👤 ' + p.nombre + '</span>' +
+                                    etiquetaDisc + ' ' + etiquetaAyuda +
+                                '</div>';
+                });
+                listaHTML += '</div>';
+
+                // Diseño estruturado del Popup con indicadores en cajitas
+                marker.bindPopup(
+                    '<div style="min-width: 290px;">' +
+                        '<div class="popup-header">' + campName + '</div>' +
+                        '<div class="popup-stats">' +
+                            '<div class="stat-item stat-total">Total<span>' + info.total + '</span></div>' +
+                            '<div class="stat-item stat-disc">Discapacidad<span>' + info.total_discapacidad + '</span></div>' +
+                            '<div class="stat-item stat-ayuda">Ayudas<span>' + info.total_ayudas + '</span></div>' +
+                        '</div>' +
+                        '<div style="font-size: 11px; font-weight: 700; color: #57606f; margin-bottom: 4px; text-transform: uppercase;">Beneficiarios Registrados</div>' +
+                        listaHTML +
+                    '</div>'
+                );
+            }
+        })
+        .catch(error => console.error("Error al cargar datos del mapa:", error));
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-    "total_global": 162,
+    "total_global": 183,
     "campamentos": {
         "U.E.N. Francisco Pimentel": {
             "lat": 10.5061,
@@ -633,9 +633,9 @@
                 }
             ]
         },
-        "Campamento Tránsitorio Mariperez": {
-            "lat": 10.5085,
-            "lng": -66.8845,
+        "GMB Pinto Salinas": {
+            "lat": 10.4806,
+            "lng": -66.9036,
             "total": 3,
             "total_discapacidad": 3,
             "total_ayudas": 2,
@@ -1305,6 +1305,236 @@
                     "tipo_ayuda": "Ninguna"
                 }
             ]
+        },
+        "UE Jesus Enrique Lozada": {
+            "lat": 10.4820,
+            "lng": -66.9280,
+            "total": 8,
+            "total_discapacidad": 8,
+            "total_ayudas": 1,
+            "personas": [
+                {
+                    "nombre": "Lisneida rojas ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "David curvelo Camacho ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Marianela Toledo ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Johan Rodolfo sequera corro",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Franyer Ricardo cruz uzcategui",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "María Josefina Uzcategui de Gudiño ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Johnny blanco liendo",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José Antonio Merchan Ramírez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "U.E.N. Pedro Fontes": {
+            "lat": 10.4850,
+            "lng": -66.9350,
+            "total": 6,
+            "total_discapacidad": 6,
+            "total_ayudas": 0,
+            "personas": [
+                {
+                    "nombre": "Teodosio Lattan",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Luis Domínguez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Irenes Aguilera ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Múltiple",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Eurismar Aguilera ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Intelectual",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Lian Curiel",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Ya posee una No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Alexis Jiménez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "E.B.N Dr Guillermo Delgado Palacios": {
+            "lat": 10.4806,
+            "lng": -66.9036,
+            "total": 7,
+            "total_discapacidad": 7,
+            "total_ayudas": 6,
+            "personas": [
+                {
+                    "nombre": "Andrés Javier Valera ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Denny Rodríguez ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Grabiel Francisco Cipriano González ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Auditiva Otra",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Richard Alexander palacios vargas",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "No",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "José enserio Roche Aparicio ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Visual",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Denny marcha ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                },
+                {
+                    "nombre": "Liborio romero ",
+                    "discapacidad": "Si",
+                    "tipo": "Discapacidad Físico - Motora",
+                    "requiere_ayuda": "Si",
+                    "tipo_ayuda": "Ninguna"
+                }
+            ]
+        },
+        "Campamento Edificio Misión Cultura": {
+            "lat": 10.5045,
+            "lng": -66.9050,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo",
+            "personas": []
+        },
+        "Canchas de Hidroven": {
+            "lat": 10.4900,
+            "lng": -66.8850,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo",
+            "personas": []
+        },
+        "Centro de Educación Inicial Paula Maria Nieves": {
+            "lat": 10.4720,
+            "lng": -66.9220,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo",
+            "personas": []
+        },
+        "UNES El Junquito": {
+            "lat": 10.4500,
+            "lng": -67.0700,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo",
+            "personas": []
+        },
+        "E.D Juan Antonio Perez Bonalde": {
+            "lat": 10.5125,
+            "lng": -66.9380,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo (Visitado por Shaira 10/07/2026)",
+            "personas": []
+        },
+        "U.E.N. Vicente Landaeta Gil": {
+            "lat": 10.4900,
+            "lng": -66.9220,
+            "total": 0,
+            "total_discapacidad": 0,
+            "total_ayudas": 0,
+            "aviso": "Unificar con Kobo (Visitado por Shaira 14/07/2026)",
+            "personas": []
         }
+    }
+}
     }
 }

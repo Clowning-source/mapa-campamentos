@@ -84,19 +84,25 @@
         });
 
 
-        fetch('datos_mapa.json')
+fetch('datos_mapa.json')
             .then(response => response.json())
             .then(data => {
                 const campamentos = data.campamentos;
                 for (let nombre in campamentos) {
                     let camp = campamentos[nombre];
+
+                    
+                    let contenidoInfo = camp.aviso
+                        ? `<p style="margin: 6px 0 0 0; color: #dc2626; font-weight: bold;">⚠️ ${camp.aviso}</p>`
+                        : `<p style="margin: 4px 0;"><b>Total Entrevistas:</b> ${camp.total}</p>
+                            <p style="margin: 4px 0;"><b>Con Discapacidad:</b> ${camp.total_discapacidad}</p>
+                            <p style="margin: 4px 0;"><b>Solicitud de Ayudas:</b> ${camp.total_ayudas}</p>`;
+
                     let popupContent = `
                         <div style="min-width: 200px;">
                             <h3 style="margin: 0 0 8px 0; color: #1e293b;">${nombre}</h3>
                             <p style="margin: 4px 0;"><b>Estado:</b> <span style="color: #2563eb; font-weight: bold;">Visitado</span></p>
-                            <p style="margin: 4px 0;"><b>Total Entrevistas:</b> ${camp.total}</p>
-                            <p style="margin: 4px 0;"><b>Con Discapacidad:</b> ${camp.total_discapacidad}</p>
-                            <p style="margin: 4px 0;"><b>Solicitud de Ayudas:</b> ${camp.total_ayudas}</p>
+                            ${contenidoInfo}
                         </div>
                     `;
                     L.marker([camp.lat, camp.lng]).addTo(map)
@@ -106,38 +112,37 @@
             .catch(error => console.error('Error al cargar datos_mapa.json:', error));
 
 
-        var campamentosNoVisitados = [
-            { nombre: "Liceo Juan Landaeta", lat: 10.5080, lng: -66.9150 },
-            { nombre: "E.D Juan Antonio Perez Bonalde", lat: 10.5125, lng: -66.9380 },
-            { nombre: "U.E Gran Colombia", lat: 10.4980, lng: -66.9120 },
+var campamentosNoVisitados = [
+            { nombre: "Liceo Juan Landaeta", lat: 10.5080, lng: -66.9150, comentario: "INACTIVO" },
+            { nombre: "U.E Gran Colombia", lat: 10.4980, lng: -66.9120, comentario: "PROGRAMADO PARA 30/07/2026" },
             { nombre: "E.B.N Dr Guillermo Delgado Palacios", lat: 10.5040, lng: -66.9250 },
-            { nombre: "U.E.N. Pedro Fontes", lat: 10.4850, lng: -66.9350 },
-            { nombre: "U.E.N. Vicente Landaeta Gil", lat: 10.4900, lng: -66.9220 },
-            { nombre: "C.E. Claudio Feliciano", lat: 10.5020, lng: -66.9150 },
-            { nombre: "UEN Eduardo Crema", lat: 10.4930, lng: -66.9080 },
-            { nombre: "UE Cesar Rengifo", lat: 10.4680, lng: -66.9120 },
+            { nombre: "C.E. Claudio Feliciano", lat: 10.5020, lng: -66.9150, comentario: "INACTIVO" },
+            { nombre: "UEN Eduardo Crema", lat: 10.4930, lng: -66.9080, comentario: "TENTATIVO VIERNES 31/07/2026" },
+            { nombre: "UE Cesar Rengifo", lat: 10.4680, lng: -66.9120, comentario: "NO FUNCIONA COMO CAMPAMENTO" },
             { nombre: "Liceo Agustín Aveledo", lat: 10.5090, lng: -66.8950 },
             { nombre: "UEN Dr Luis Padrino", lat: 10.4780, lng: -66.9180 },
-            { nombre: "UE Jesus Enrique Lozada", lat: 10.4820, lng: -66.9280 },
-            { nombre: "Escuela Nuestra América", lat: 10.5180, lng: -66.9480 },
-            { nombre: "Centro de Educación Inicial Paula Maria Nieves", lat: 10.4720, lng: -66.9220 },
-            { nombre: "Campamento Edificio Misión Cultura", lat: 10.5045, lng: -66.9050 },
-            { nombre: "Ciudadela de Catia 2", lat: 10.5185, lng: -66.9385 },
+            { nombre: "Escuela Nuestra América", lat: 10.5180, lng: -66.9480, comentario: "INACTIVO" },
             { nombre: "UNES El Junquito", lat: 10.4500, lng: -67.0700 },
             { nombre: "CMAPP El Junquito", lat: 10.4550, lng: -67.0650 },
             { nombre: "San Pedro Claver", lat: 10.4620, lng: -66.9200 },
             { nombre: "GBM Caricuao", lat: 10.4280, lng: -66.9850 },
-            { nombre: "GBM El Valle", lat: 10.4580, lng: -66.9250 },
+            { nombre: "GBM El Valle", lat: 10.4580, lng: -66.9250, comentario: "INACTIVO" },
             { nombre: "UE República del Ecuador", lat: 10.4970, lng: -66.9180 },
             { nombre: "Canchas de Hidroven", lat: 10.4900, lng: -66.8850 },
-            { nombre: "GBM Catia (Gimnasio Vertical)", lat: 10.5120, lng: -66.9450 }
+            { nombre: "GBM Catia (Gimnasio Vertical)", lat: 10.5120, lng: -66.9450, comentario: "FUE REPROGRAMADO SIN FECHA" }
         ];
 
-        campamentosNoVisitados.forEach(function(site) {
+campamentosNoVisitados.forEach(function(site) {
+            
+            let htmlComentario = site.comentario
+                ? `<p style="margin: 6px 0 0 0; font-size: 13px; color: #475569;"><b>Motivo:</b> ${site.comentario}</p>`
+                : `<p style="margin: 6px 0 0 0; font-size: 13px; color: #475569;"><b>Motivo:</b> Pendiente por coordinar</p>`;
+
             let popupRed = `
                 <div style="min-width: 180px;">
                     <h3 style="margin: 0 0 8px 0; color: #dc2626;">${site.nombre}</h3>
                     <p style="margin: 4px 0;"><b>Estado:</b> <span style="color: #dc2626; font-weight: bold;">No visitado aún</span></p>
+                    ${htmlComentario}
                 </div>
             `;
             L.marker([site.lat, site.lng], { icon: redIcon }).addTo(map)
